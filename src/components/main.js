@@ -1,13 +1,16 @@
 import React from 'react';
+import Slider from 'react-slick';
 import Navbar from './nav'
-import MySlider from './slider'
+import MyTable from './table'
+import Hook from './state'
 
 const Main = () => {
     return ( 
 
         <div>
             <Navbar/>
-            <MySlider/>
+            <MyTable/>
+            <Hook/>
         </div>
      );
 }
